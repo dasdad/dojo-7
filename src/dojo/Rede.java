@@ -31,6 +31,6 @@ public class Rede {
   }
   
   public int area(){
-    return xf + yf;
+    return (xf - xi) * (yf - yi);
   }
 }
