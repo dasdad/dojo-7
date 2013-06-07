@@ -4,21 +4,25 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Oceano {
-
-  private List<Rede> redes;
+  private boolean[][] matriz;
   
   public Oceano() {
-    redes = new ArrayList<>();
+    matriz = new boolean[100][100];
   }
 
   public Oceano(List<Rede> redes) {
-    this.redes = redes;
+    this();
+    matriz[0][0] = true;
   }
 
   public int areaCoberta() {
-    if(redes.size() > 0){
+    if(matriz[0][0]){
      return 1;
     }
     return 0;
+  }
+  
+  public boolean[][] getMatriz(){
+    return matriz;
   }
 }
