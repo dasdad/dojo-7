@@ -12,9 +12,16 @@ public class Oceano {
 
   public Oceano(List<Rede> redes) {
     this();
-    matriz[0][0] = true;
+    for(Rede rede : redes){
+      for (int i = rede.getXi(); i < rede.getXf(); i++) {
+        for (int j = rede.getYi(); j < rede.getYf(); j++) {
+          matriz[i][j] = true;
+        }
+      }
+    }
+    
   }
-
+  
   public int areaCoberta() {
     if(matriz[0][0]){
      return 1;
