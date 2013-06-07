@@ -48,6 +48,13 @@ Retrospectiva
 * Eclipse
 * Colocar telefone no Eventbrite para os atrasados nos chamarem
 
+Conteúdo
+--------
+
+* `test`: testes.
+* `src`: código fonte.
+* `solucao.java`: código fonte cola em um arquivo para submeter na OBI.
+
 
 [1]: https://github.com/stupied4ever
 [2]: https://github.com/linezcl
