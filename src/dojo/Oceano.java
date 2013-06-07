@@ -20,7 +20,6 @@ public class Oceano {
         }
       }
     }
-
   }
 
   public int areaCoberta() {
